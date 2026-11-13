@@ -2,21 +2,23 @@
 
 ## Dashboard Preview
 
-### Dashboard 1 – Executive Overview
-![Executive Overview](Screenshots/Executive-Overview.png)
+### Executive Overview
 
-### Dashboard 2 – City Performance & Station Analysis
-![City Performance & Station Analysis](Screenshots/City-Performance-Station-Analysis.png)
+![Executive Overview](Executive-Overview.png)
+
+### City Performance & Station Analysis
+
+![City Performance & Station Analysis](City-Performance-Station-Analysis.png)
 
 ---
 
-## 1. Project Overview
+## Project Overview
 
 The **Smart City Bike Sharing Analytics Dashboard** is an interactive Power BI project developed to analyse bike-sharing station data across different cities.
 
 The dashboard provides insights into station availability, bike capacity, station status, banking facilities, bonus facilities, and city-wise performance.
 
-## 2. Project Objectives
+## Project Objectives
 
 - Analyse the total number of bike-sharing stations.
 - Monitor open and closed station status.
@@ -24,18 +26,18 @@ The dashboard provides insights into station availability, bike capacity, statio
 - Compare bike capacity across cities.
 - Analyse banking and bonus facility availability.
 - Visualise station locations using a map.
-- Present key insights through interactive Power BI dashboards.
+- Present key insights through interactive dashboards.
 
-## 3. Tools & Technologies
+## Tools & Technologies
 
 - **Microsoft Excel** – Dataset review and preparation
-- **Power BI Desktop** – Dashboard development and data visualisation
+- **Power BI Desktop** – Dashboard development and visualisation
 - **Power Query** – Data cleaning and transformation
 - **DAX** – Measures and calculated columns
 
-## 4. Dashboard Details
+## Dashboard Details
 
-### Page 1 – Executive Overview
+### Executive Overview
 
 Provides a high-level summary of the bike-sharing network.
 
@@ -56,7 +58,7 @@ Provides a high-level summary of the bike-sharing network.
 - Station Status
 - Banking Availability
 
-### Page 2 – City Performance & Station Analysis
+### City Performance & Station Analysis
 
 Provides a detailed view of city-wise bike capacity, station locations, and facility availability.
 
@@ -66,11 +68,11 @@ Provides a detailed view of city-wise bike capacity, station locations, and faci
 - Bike Availability – Gauge Chart
 - Bike Capacity by City – Treemap
 
-## 5. Dataset Information
+## Dataset Information
 
-The project uses a bike-sharing station dataset containing **2,856 records** and information about station locations, capacity, availability, and facilities.
+The project uses a bike-sharing station dataset containing **2,856 records**.
 
-**Important columns include:**
+**Important columns:**
 - Station Number
 - Station Name
 - Address
@@ -85,11 +87,10 @@ The project uses a bike-sharing station dataset containing **2,856 records** and
 - Available Bikes
 - Last Update
 
-## 6. Data Cleaning & Transformation
+## Data Cleaning & Transformation
 
 Data preparation was performed using Power Query.
 
-Key activities:
 - Imported the original dataset into Power BI.
 - Created separate Raw and Clean queries.
 - Reviewed column quality, distribution, and data profiles.
@@ -99,9 +100,9 @@ Key activities:
 - Created a validation check for bike capacity and availability.
 - Created Banking Label and Bonus Label columns for clearer reporting.
 
-## 7. DAX Measures
+## DAX Measures
 
-The following DAX measures were created for dashboard calculations:
+The following DAX measures were created:
 
 ```dax
 Total Bike Stations =
@@ -120,7 +121,7 @@ Total Available Bike Stands =
 SUM(Bike_Stations_Clean[Available Bike Stands])
 ```
 
-## 8. Key Insights
+## Key Insights
 
 Based on the dataset:
 
@@ -132,7 +133,7 @@ Based on the dataset:
 - Banking facilities were available at approximately **11.76%** of stations.
 - Bonus facilities were available at approximately **2.45%** of stations.
 
-## 9. Project Scope & Data Limitations
+## Project Scope & Data Limitations
 
 This project focuses on bike-sharing station information and availability.
 
@@ -140,12 +141,16 @@ The dataset does not contain actual rental transactions, customer details, trip 
 
 The Last Update column represents station update timestamps and should not be treated as a complete rental history.
 
-## 10. Project Outcome
+## Project Outcome
 
 Successfully developed a two-page interactive Power BI dashboard using Power Query, DAX, charts, slicers, a map, a gauge, and a treemap.
 
 This project helped strengthen practical skills in data cleaning, data modelling, DAX calculations, data visualisation, and dashboard development.
 
+## Author
 
+**Luther Benny**
+
+Aspiring Data Analyst | AI-Driven Data Analytics Learner
 
 **Skills:** Excel | SQL | Power BI | Python | Data Analytics
