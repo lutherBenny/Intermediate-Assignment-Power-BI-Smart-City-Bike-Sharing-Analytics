@@ -147,10 +147,4 @@ Successfully developed a two-page interactive Power BI dashboard using Power Que
 
 This project helped strengthen practical skills in data cleaning, data modelling, DAX calculations, data visualisation, and dashboard development.
 
-## Author
 
-**Luther Benny**
-
-Aspiring Data Analyst | AI-Driven Data Analytics Learner
-
-**Skills:** Excel | SQL | Power BI | Python | Data Analytics
